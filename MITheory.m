@@ -42,5 +42,4 @@ NoiseEntropytheo    = Hnoise/(bins/1000);
 MItheo1             = Entropytheo + NoiseEntropytheo;
 MItheo2             = (pr1s1*log2(pr1s1/(pr1*ps1)) + pr1s0*log2(pr1s0/(pr1*ps0)) + pr0s1*log2(pr0s1/(pr0*ps1)) + pr0s0*log2(pr0s0/(pr0*ps0)))/(bins/1000);
 
-
 end
